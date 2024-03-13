@@ -10,16 +10,16 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
         <div>
-            <img src={Logo} alt="Logo Image" style={{width: '50px'}}/>
+            <img src={Logo} alt="Kaarish" style={{width: '50px'}}/>
         </div>
 
         {/* // Webwsite Menu */}
         <ul className='hidden md:flex'>     
-          <li><Link to='home' smooth={true} duration={500} className='relative inline-block text-gray-300 hover:text-white after:content-[""] after:block after:w-0 after:h-0.5 after:bg-red-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full'>Home</Link></li>
-          <li><Link to='about' smooth={true} duration={500} className='relative inline-block text-gray-300 hover:text-white after:content-[""] after:block after:w-0 after:h-0.5 after:bg-red-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full'>About</Link></li>
-          <li><Link to='skills' smooth={true} duration={500} className='relative inline-block text-gray-300 hover:text-white after:content-[""] after:block after:w-0 after:h-0.5 after:bg-red-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full'>Skills</Link></li>
-          <li><Link to='work' smooth={true} duration={500} className='relative inline-block text-gray-300 hover:text-white after:content-[""] after:block after:w-0 after:h-0.5 after:bg-red-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full'>Work</Link></li>
-          <li><Link to='contact' smooth={true} duration={500} className='relative inline-block text-gray-300 hover:text-white after:content-[""] after:block after:w-0 after:h-0.5 after:bg-red-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full'>Contact</Link></li>
+          <li><Link to='home' smooth={true} duration={500} className='relative inline-block text-gray-300 text-2xl hover:text-white after:content-[""] after:block after:w-0 after:h-0.5 after:bg-red-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full'>Home</Link></li>
+          <li><Link to='about' smooth={true} duration={500} className='relative inline-block text-gray-300 text-2xl hover:text-white after:content-[""] after:block after:w-0 after:h-0.5 after:bg-red-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full'>About</Link></li>
+          <li><Link to='skills' smooth={true} duration={500} className='relative inline-block text-gray-300 text-2xl hover:text-white after:content-[""] after:block after:w-0 after:h-0.5 after:bg-red-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full'>Skills</Link></li>
+          <li><Link to='work' smooth={true} duration={500} className='relative inline-block text-gray-300 text-2xl hover:text-white after:content-[""] after:block after:w-0 after:h-0.5 after:bg-red-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full'>Work</Link></li>
+          <li><Link to='contact' smooth={true} duration={500} className='relative inline-block text-gray-300 text-2xl hover:text-white after:content-[""] after:block after:w-0 after:h-0.5 after:bg-red-500 after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 hover:after:w-full'>Contact</Link></li>
         </ul>
         <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}

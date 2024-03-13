@@ -2,7 +2,8 @@ import React from 'react'
 import ProjectImg from '../assets/project-2.png'
 import Quiz from '../assets/quizapp.png'
 import Chat from '../assets/chatapp.png'
-import Grocecy from '../assets/grocecyapp.png'
+import Grocecy from '../assets/listerapp.png'
+import Capstone from '../assets/capstone.png'
 
 const Work = () => {
   return (
@@ -28,7 +29,7 @@ const Work = () => {
                             Weather App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://github.com/kaarishp/WeatherApp.git">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -43,10 +44,10 @@ const Work = () => {
                     {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Quiz
+                            React JS Quiz
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://github.com/kaarishp/QuizReactApp.git">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -64,7 +65,7 @@ const Work = () => {
                             Chat App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://github.com/kaarishp/ChatApp.git">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -79,10 +80,10 @@ const Work = () => {
                     {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Project Title
+                            Grocery List App
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://github.com/kaarishp/ShopListerPlus.git">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -91,16 +92,16 @@ const Work = () => {
 
                 {/* Project 5 */}
                 <div 
-                style={{backgroundImage: `url(${ProjectImg})`}} 
+                style={{backgroundImage: `url(${Capstone})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover Effect */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Project Title
+                            AI Call Assist
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://github.com/alialoraebi/capstone.git">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -109,11 +110,11 @@ const Work = () => {
 
                 {/* Project 6 */}
                 <div 
-                style={{backgroundImage: `url(${ProjectImg})`}} 
+                // style={{backgroundImage: `url(${ProjectImg})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
+                    <h1 className='font-bold text-4xl text-center'>E-Commerce Coming Soon....</h1>
                     {/* Hover Effect */}
-                    <div className='opacity-0 group-hover:opacity-100'>
+                    {/* <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
                             Project Title
                         </span>
@@ -122,7 +123,7 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-800 font-bold text-lg'>Code</button>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
