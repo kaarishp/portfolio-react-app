@@ -17,11 +17,12 @@ const About = () => {
               <p>Hi. I'm Kaarish Parameswaran, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I'm currently in semester 6 of Computer 
-              Programming and Analysis at George Brown College. I specialize in creating 
-              software for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations.</p>  
+              <p>I have a strong passion for developing outstanding software that positively impacts 
+                the lives of those around me. Currently in my sixth semester of the Computer Programming
+                and Analysis program at George Brown College, I excel in designing software solutions for 
+                a diverse range of clients, from individuals and small businesses to large corporations. 
+                My dedication to excellence in my academic and professional pursuits has been recognized with 
+                inclusion on the Dean's Honour List.</p>  
             </div>
           </div>
       </div>

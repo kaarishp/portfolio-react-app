@@ -5,7 +5,6 @@ import { faCopyright } from '@fortawesome/free-regular-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import Avatar from '../assets/newavatar.png';
 
-// Reusable IconLink Component
 const IconLink = ({ href, icon, label, iconSize = 'lg' }) => (
   <a href={href} className="flex items-center justify-center gap-2 text-xl hover:text-blue-300 transition duration-300 ease-in-out">
     <FontAwesomeIcon icon={icon} size={iconSize}/> {label}
@@ -25,7 +24,7 @@ const Contact = () => {
         <IconLink href="https://www.linkedin.com/in/kaarish-parameswaran-815862265/" icon={faLinkedin} label=""  iconSize="2x" />
         <IconLink href="https://github.com/kaarishp" icon={faGithub} label="" iconSize="2x" />
       </div>
-      <a href="#" download className='mt-4 bg-red-500 text-white font-bold py-3 px-6 rounded hover:bg-blue-700 transition duration-300 ease-in-out'>Download Resume</a> {/* Increased padding for a larger button */}
+      <a href="../assets/KaarishResume.pdf" download="KaarishResume.pdf" className='mt-4 bg-red-500 text-white font-bold py-3 px-6 rounded hover:bg-blue-700 transition duration-300 ease-in-out'>Download Resume</a> 
       <div className='mt-10 py-4'>
         <p>Copyright <FontAwesomeIcon icon={faCopyright} /> Kaarish Parameswaran 2024</p>
       </div>

@@ -12,6 +12,10 @@ const Home = () => {
 
     return () => clearInterval(interval);
   }, [texts.length]);
+
+  const handleClick = () => {
+    window.location.href = 'https://github.com/kaarishp';
+  };
   
   return (
     <div name='home' className='w-full h-screen bg-[#0c133a]'>
@@ -25,13 +29,13 @@ const Home = () => {
         <p className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a {texts[currentIndex]}</p>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>As a software developer, I excel at solving complex problems with precision and innovation, delivering high-quality solutions that drive positive change. </p>
         <div>
-        <button to='work' className='text-white group border-2 px-6 py-3 my-3 flex items-center hover:bg-red-600 hover:border-red-600'>
+          <button onClick={handleClick} className='text-white group border-2 px-6 py-3 my-3 flex items-center hover:bg-red-600 hover:border-red-600'>
           View Work 
-        <span className='group-hover duration-300'>
+          <span className='group-hover:duration-300'>
           <HiArrowNarrowRight className='ml-3'/>
-        </span>
-        </button>
-      </div>
+          </span>
+          </button>
+        </div>
       </div>
     </div>
   )
