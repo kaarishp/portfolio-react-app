@@ -2,7 +2,7 @@
 
 👋 Hello! Thanks for checking out my projects on GitHub. If you're interested in learning more about me and exploring my personal portfolio, feel free to visit my website.
 
-[**Visit My Portfolio**](https://kaarishp.github.io)
+[**Visit My Portfolio**](https://portfolio-react-app-lac.vercel.app)
 
 On my portfolio, you'll find more information about my background, skills, and the projects I've worked on. I'm always open to collaboration and feedback, so don't hesitate to reach out!
 
