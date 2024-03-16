@@ -1,6 +1,8 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
 
@@ -13,6 +15,14 @@
     @apply cursor-pointer;
   }
 }
+
+@media (max-width: 768px) {
+  .skills, .about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 
 .content-div {
   background-repeat: no-repeat;
