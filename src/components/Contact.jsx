@@ -17,7 +17,7 @@ const Contact = () => {
       <h1 className='font-bold text-7xl mb-10 truncate'>Let's Connect</h1>
       <div className='text-center mb-8'> {/* Center the content with margin-bottom */}
         <h2 className='text-xl mb-6 max-w-xl mx-auto'>Reaching out to say hello, or eager to collaborate on something extraordinary? I'm here and ready to listen. Get in touch, and let's join forces to craft something truly amazing together!</h2>
-        <img src={Avatar} alt="Avatar" className="inline-block h-24 w-24 md:h-56 md:w-56 rounded-full border-4 border-white mb-6"/> {/* Adjusted size and added margin-bottom */}
+        <img src={Avatar} alt="Avatar" className="inline-block h-24 w-24 md:h-48 md:w-48 rounded-full border-4 border-white mb-6"/> {/* Adjusted size and added margin-bottom */}
       </div>
       <div className='flex justify-center gap-8 mb-8 '> {/* Increased gap and added margin-bottom */}
         <IconLink href="mailto:kaarishsivaguru@gmail.com" icon={faEnvelopeSolid} label=""   iconSize="2x" />

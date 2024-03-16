@@ -16,7 +16,8 @@
 
 .content-div {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  /* background-size: contain; */
   background-position: center;
   height: 340px;
 }
