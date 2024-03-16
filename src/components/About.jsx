@@ -72,14 +72,15 @@ const About = () => {
                 <h3 className='text-xl font-semibold'>George Brown College (Sept 2021 - April 2024)</h3>
                 <p className='italic'>Computer Programming and Analysis</p>
                 <ul className='list-disc list-inside ml-4'>
-                  <li>Full Stack Development I</li>
+                  <li>Full Stack Development</li>
                   <li>Data Science</li>
                   <li>Machine Learning</li>
+                  <li>Mobile Application Development</li>
                   <li>Full Stack Development</li>
                   <li>DevOps</li>
+                  <li>Capstone Project</li>
                   <li>Data Structures and Algorithms</li>
                   <li>Advanced Database Development</li>
-                  <li>IT Essentials</li>
                 </ul>
               </div>
             </div>
@@ -90,13 +91,13 @@ const About = () => {
               <h2 className='text-2xl font-bold mb-4'>Awards</h2>
               <ul className='list-disc list-inside ml-4'>
                 <li className='mb-4'>
-                  <span className='font-semibold'>Deans’ Honour List (x4) - George Brown College</span> (Fall 2021 - Fall 2023)
+                  <span className='font-semibold'>Dean's Honour List (x4) - George Brown College</span> (Fall 2021 - Fall 2023)
                   <ul className='ml-6 mt-1'>
-                    <li>Given to students in the College of Engineering & Physical Sciences who make the Dean’s Honours List by maintaining an 80% or higher average in the Fall 2023 semester.</li>
+                    <li>Given to students in the College of Engineering & Physical Sciences who make the Dean's Honours List by maintaining an 80% or higher average.</li>
                   </ul>
                 </li>
                 <li className='mb-4'>
-                  <span className='font-semibold'>Ontario Scholar</span> - Harold M. Brathwaite Secondary School (June 2021)
+                  <span className='font-semibold'>Ontario Scholar - Harold M. Brathwaite Secondary School </span>(June 2021)
                     <ul className='ml-6 mt-1'>
                       <li>Recognized for achieving an average of 80% or higher in six Grade 12 university preparation courses.</li>
                     </ul>

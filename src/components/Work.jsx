@@ -5,6 +5,7 @@ import Chat from '../assets/newchat.png'
 import Grocecy from '../assets/listerapp.png'
 import Capstone from '../assets/newcap.png'
 
+
 const Work = () => {
   return (
     <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0c133a]'>

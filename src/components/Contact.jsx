@@ -25,7 +25,7 @@ const Contact = () => {
         <IconLink href="https://github.com/kaarishp" icon={faGithub} label="" iconSize="2x" />
       </div>
       <div className=''>
-        <a href="../assets/KaarishResume.pdf" download="KaarishResume.pdf" className='mt-4 bg-red-500 text-white font-bold py-3 px-6 rounded hover:bg-blue-700 transition duration-300 ease-in-out mr-2'>Download Resume</a> 
+        <a href="/assets/KaarishResume.pdf" download="KaarishResume.pdf" className='mt-4 bg-red-500 text-white font-bold py-3 px-6 rounded hover:bg-blue-700 transition duration-300 ease-in-out mr-2'>Download Resume</a> 
       </div>
       <div className='mt-10 py-4'>
         <p>Copyright <FontAwesomeIcon icon={faCopyright} /> Kaarish Parameswaran 2024</p>
