@@ -14,7 +14,7 @@ const IconLink = ({ href, icon, label, iconSize = 'lg' }) => (
 const Contact = () => {
   return (
     <div name='contact' className='flex flex-col justify-center items-center text-gray-300 bg-[#0c133a] px-8 py-12'>
-      <h1 className='font-bold text-7xl mb-10 truncate'>Let's Connect</h1>
+      <h1 className='font-bold text-7xl mb-10 mt-10 truncate'>Let's Connect</h1>
       <div className='text-center mb-8'>
         <h2 className='text-xl mb-6 max-w-xl mx-auto'>Reaching out to say hello, or eager to collaborate on something extraordinary? I'm here and ready to listen. Get in touch, and let's join forces to craft something truly amazing together!</h2>
         <img src={Avatar} alt="Avatar" className="inline-block h-24 w-24 md:h-48 md:w-48 rounded-full border-4 border-white mb-6"/>
