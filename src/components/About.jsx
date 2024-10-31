@@ -50,6 +50,17 @@ const About = () => {
                   <li>Develop relationships with the youth while building trust, coaching, and educating them to make positive life changes.</li>
                 </ul>
               </div>
+              <br />
+              <div>
+                <h3 className='text-xl font-semibold'>AI Call Assist - Software Developer</h3>
+                <p className='italic'>Toronto, Ontario (Sept 2023 - August 2024)</p>
+                <ul className='list-disc list-inside ml-4'>
+                  <li>Develop dynamic web applications using React.js, HTML5, CSS3, and MongoDB</li>
+                  <li>Focus on creating responsive user interfaces and efficient back-end integrations</li>
+                  <li>Collaborate with cross-functional teams to deliver scalable, high-quality solutions</li>
+                  <li>Stay updated with emerging technologies to enhance application performance and user experience</li>
+                </ul>
+              </div>
             </div>
           )}
           {activeTab === 'education' && (
@@ -83,6 +94,17 @@ const About = () => {
                   <li>Advanced Database Development</li>
                 </ul>
               </div>
+
+              <div>
+                <h3 className='text-xl font-semibold'>University of Guelph (Sept 2024 - April 2025)</h3>
+                <p className='italic'>Bachelor of Computer Science</p>
+                <ul className='list-disc list-inside ml-4'>
+                  <li>Data Structures</li>
+                  <li>Web Design & Development</li>
+                  <li>User Interface Design</li>
+                  <li>Software for Legacy Systems</li>
+                </ul>
+              </div>
             </div>
           </div>
           )}
@@ -91,7 +113,7 @@ const About = () => {
               <h2 className='text-2xl font-bold mb-4'>Awards</h2>
               <ul className='list-disc list-inside ml-4'>
                 <li className='mb-4'>
-                  <span className='font-semibold'>Dean's Honour List (x4) - George Brown College</span> (Fall 2021 - Fall 2023)
+                  <span className='font-semibold'>Dean's Honour List (x5) - George Brown College</span> (Fall 2021 - Winter 2024)
                   <ul className='ml-6 mt-1'>
                     <li>Given to students in the College of Engineering & Physical Sciences who make the Dean's Honours List by maintaining an 80% or higher average.</li>
                   </ul>
